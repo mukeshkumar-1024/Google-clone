@@ -2,7 +2,9 @@
 
 A front-end recreation of the Google interface, built with HTML and CSS to practise layout work. No JavaScript, no framework — the whole thing is markup and stylesheet.
 
-**Live demo:** _(enable GitHub Pages on this repo and put the link here)_
+**Live demo:** https://google-03gc.onrender.com
+
+> Hosted on Render's free tier, which sleeps when idle — the first load can take up to a minute. After that it is quick.
 
 > A learning project. Not affiliated with, endorsed by, or connected to Google. All Google names and logos belong to their owner; they appear here only because the exercise was to reproduce the layout.
 
@@ -21,6 +23,12 @@ A front-end recreation of the Google interface, built with HTML and CSS to pract
 
 Roughly 166 lines of HTML and 468 of CSS.
 
+## Known issue
+
+The Material icon font does not load on the deployed version, so a few icons show as
+their text names (`mic`, `add_a_photo`) instead of glyphs. Fixing the font link is on
+the list.
+
 ## Run it
 
 ```bash
@@ -29,13 +37,6 @@ cd Google-clone
 open index.html        # or just double-click the file
 ```
 
-## Publish it
-
-1. Repo → **Settings** → **Pages**
-2. **Source**: Deploy from a branch · Branch **main** · folder **/ (root)** · **Save**
-3. Live at `https://mukeshkumar-1024.github.io/Google-clone/`
-
-A layout project is worth far more with a live link than without one — this is the single most useful thing to do to this repo.
 
 ## License
 
