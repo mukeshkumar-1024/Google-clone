@@ -12,8 +12,7 @@ A front-end recreation of the Google interface, built with HTML and CSS to pract
 
 ## Screenshot
 
-<!-- Take a screenshot, save it as docs/screenshot.png, then uncomment: -->
-<!-- ![Google Search — layout clone](docs/screenshot.png) -->
+![Google Search — layout clone](docs/screenshot.png)
 
 ## What it covers
 
@@ -22,12 +21,6 @@ A front-end recreation of the Google interface, built with HTML and CSS to pract
 - Responsive behaviour down to phone widths
 
 Roughly 166 lines of HTML and 468 of CSS.
-
-## Known issue
-
-The Material icon font does not load on the deployed version, so a few icons show as
-their text names (`mic`, `add_a_photo`) instead of glyphs. Fixing the font link is on
-the list.
 
 ## Run it
 
